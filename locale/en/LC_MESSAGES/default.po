@@ -1,6 +1,8 @@
+msgid ""
+msgstr ""
 "Project-Id-Version: Bouncer\n"
 "POT-Creation-Date: 2018-04-19 08:58-0400\n"
-"PO-Revision-Date: 2018-04-19 16:27-0400\n"
+"PO-Revision-Date: 2018-05-25 14:07-0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -10,6 +12,170 @@
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: en\n"
+
+#: api/errors.go:8
+msgid "api.error.ResponseTimeout"
+msgstr "The server is unresponsive"
+
+#: api/errors.go:10
+msgid "api.error.NotFound"
+msgstr "Resource not found"
+
+# server/errors.go:
+msgid "bouncer.error.Config"
+msgstr "Could not initialize config"
+
+# server/errors.go:
+msgid "bouncer.error.Consent"
+msgstr "Consent error"
+
+# server/errors.go:
+msgid "bouncer.error.HTTPConsentAccept"
+msgstr "Could not accept consent"
+
+# server/errors.go:
+msgid "bouncer.error.HTTPConsentMissingID"
+msgstr "Missing consent ID"
+
+# server/errors.go:
+msgid "bouncer.error.HTTPConsentConnection"
+msgstr "Could not connect to consent endpoint"
+
+# server/errors.go:
+msgid "bouncer.error.HTTPConsentStatusUnexpected"
+msgstr "Consent server response unexpected"
+
+# server/errors.go:
+msgid "bouncer.error.HTTPLoginDenied"
+msgstr "Login denied"
+
+# server/errors.go:
+msgid "bouncer.error.HTTPLoggingOut"
+msgstr "Error logging out"
+
+# server/errors.go:
+msgid "bouncer.error.HTTPIncorrectUserPass"
+msgstr "Incorrect username or password"
+
+# server/errors.go:
+msgid "bouncer.error.HTTPSession"
+msgstr "session"
+
+# server/errors.go:
+msgid "bouncer.error.HTTPRedirectNotPermitted"
+msgstr "redirect not permitted"
+
+# server/errors.go:
+msgid "bouncer.error.missing_saml_config"
+msgstr "Unable to retrieve saml config"
+
+# server/errors.go:
+msgid "bouncer.error.SamlResponseMissing"
+msgstr "SAML response form value missing"
+
+# server/errors.go:
+msgid "bouncer.error.SamlResponseDecoding"
+msgstr "SAML response decoding"
+
+# server/errors.go:
+msgid "bouncer.error.SamlResponseMalformed"
+msgstr "SAML response parsing"
+
+# server/errors.go:
+msgid "bouncer.error.SamlResponseValidation"
+msgstr "SAML response validation"
+
+# server/errors.go:
+msgid "bouncer.error.SamlResponseValidationWrongVersion"
+msgstr "unsupported SAML Version"
+
+# server/errors.go:
+msgid "bouncer.error.SamlResponseValidationNoID"
+msgstr "missing ID attribute on SAML Response"
+
+# server/errors.go:
+msgid "bouncer.error.SamlResponseValidationAssertionMissing"
+msgstr "no Assertions"
+
+# server/errors.go:
+msgid "bouncer.error.SamlResponseValidationAssertionExpired"
+msgstr "assertion has expired"
+
+# server/errors.go:
+msgid "bouncer.error.SamlResponseValidationAssertionAttributeMissing"
+msgstr "missing required assertion attributes"
+
+# server/errors.go:
+msgid "bouncer.error.SamlResponseValidationNoSignature"
+msgstr "no signature"
+
+# server/errors.go:
+msgid "bouncer.error.SamlResponseValidationDestination"
+msgstr "destination incorrect"
+
+# server/errors.go:
+msgid "bouncer.error.SamlResponseValidationMethod"
+msgstr "assertion method "
+
+# server/errors.go:
+msgid "bouncer.error.SamlResponseValidationRecipient"
+msgstr "subject recipient mismatch"
+
+# server/errors.go:
+msgid "bouncer.error.SamlEmployeeLookup"
+msgstr "employee lookup failed"
+
+# server/errors.go:
+msgid "bouncer.error.SamlMissingAssociateRole"
+msgstr "missing associate role"
+
+# server/errors.go:
+msgid "bouncer.error.SamlLoginDenied"
+msgstr "login denied, user must be added to employees and enabled"
+
+# server/errors.go:
+msgid "bouncer.error.uknown_idp"
+msgstr "response from unknown identity provider"
+
+# server/errors.go:
+msgid "bouncer.error.malformed_token"
+msgstr "Malformed token encountered"
+
+# server/errors.go:
+msgid "bouncer.error.Generic"
+msgstr "an error has occurred"
+
+# server/errors.go:
+msgid "bouncer.error.user_create"
+msgstr "cannot create an account for user"
+
+# server/errors.go:
+msgid "bouncer.error.server_unresponsive"
+msgstr "The server is unresponsive"
+
+# server/errors.go:
+msgid "bouncer.error.missing_employee"
+msgstr "Employee does not exist"
+
+# server/errors.go:
+msgid "bouncer.error.StoreIDNotFound"
+msgstr "No record found for store with given external id"
+
+# server/errors.go:
+msgid "bouncer.error.bad_credentials"
+msgstr "Wrong username or password"
+
+# server/errors.go:
+msgid "bouncer.error.MessageLoginGeneric"
+msgstr "Something went wrong. Please try again."
+
+# server/errors.go:
+msgid "bouncer.error.MessageInvalidCSRFToken"
+msgstr "Invalid csrf token"
+
+# server/errors.go:
+msgid "bouncer.error.MessageThirdPartyProviderLoginError"
+msgstr "There was an error logging in through your third party provider."
 
 msgid "bouncer.login.button"
 msgstr "EN: %s Log In"
